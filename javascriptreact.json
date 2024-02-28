@@ -15,8 +15,8 @@
         "description": "Create a functional component with Sass"
     },
     "acs": {
-		"prefix": "acs",
-		"body": [
+	"prefix": "acs",
+	"body": [
             "import './${TM_FILENAME_BASE/^(.)/${1:/downcase}/}.scss'"
             ""
             "const ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}} = () => {",
@@ -26,7 +26,7 @@
             "}",
             "",
             "export default ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}}" 
-		],
-		"description": "Create an arrow component with Sass"
-	}
+	],
+	"description": "Create an arrow component with Sass"
+    }
 }
