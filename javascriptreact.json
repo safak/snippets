@@ -1,6 +1,6 @@
 {
-    "comps": {
-        "prefix": "comps",
+    "fcs": {
+        "prefix": "fcs",
         "body": [
             "import './${TM_FILENAME_BASE/^(.)/${1:/downcase}/}.scss'"
             ""
