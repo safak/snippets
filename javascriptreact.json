@@ -2,8 +2,8 @@
      "fcc": {
 		"prefix": "fcc",
 		"body": [
-      "import './${TM_FILENAME_BASE/^(.)/${1:/downcase}/}.css'"
-      ""
+      "import './${TM_FILENAME_BASE/^(.)/${1:/downcase}/}.css'",
+      "",
       "const ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}} = () => {",
       "  return (",
       "    <div className='${TM_FILENAME_BASE/^(.)/${1:/downcase}/}'>${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}}</div>",
@@ -17,8 +17,8 @@
     "fcs": {
         "prefix": "fcs",
         "body": [
-            "import './${TM_FILENAME_BASE/^(.)/${1:/downcase}/}.scss'"
-            ""
+            "import './${TM_FILENAME_BASE/^(.)/${1:/downcase}/}.scss'",
+            "",
             "function ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}}(){",
             "  return (",
             "    <div className='${TM_FILENAME_BASE/^(.)/${1:/downcase}/}'>${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}}</div>",
@@ -32,8 +32,8 @@
     "acs": {
 	"prefix": "acs",
 	"body": [
-            "import './${TM_FILENAME_BASE/^(.)/${1:/downcase}/}.scss'"
-            ""
+            "import './${TM_FILENAME_BASE/^(.)/${1:/downcase}/}.scss'",
+            "",
             "const ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}} = () => {",
             "  return (",
             "    <div className='${TM_FILENAME_BASE/^(.)/${1:/downcase}/}'>${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}}</div>",
